@@ -32,7 +32,6 @@ if __name__ == '__main__':
     for number in ashar(1000):
         asharSet.add(number)
     print(asharSet)
-    print(len(asharSet))
 
     print('--------------------------------')
 
