@@ -28,11 +28,11 @@ def halfalphabet():
 
 if __name__ == '__main__':
 
-    asharList = []
+    asharSet = set()
     for number in ashar(1000):
-        asharList.append(number)
-    print(asharList)
-    print(len(asharList))
+        asharSet.add(number)
+    print(asharSet)
+    print(len(asharSet))
 
     print('--------------------------------')
 
